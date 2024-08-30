@@ -12,7 +12,6 @@
 - [Tests](#tests)
 - [Deployment](#deployment)
 - [Built With](#built-with)
-- [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
 
 ## Features
@@ -107,13 +106,7 @@ To deploy this application:
 - **[Python](https://www.python.org/):** The core programming language used.
 - **[PyQt5](https://riverbankcomputing.com/software/pyqt/intro):** For creating the GUI.
 - **Various Security Tools:** Nmap, Wireshark, Metasploit, etc., which are leveraged for the scanning operations.
-
-
-## Authors
-- **Your Name** - *Initial work* - [https://github.com/vijaykumarkk007](https://github.com/vijaykumarkk007)
-
-See also the list of [contributors](https://github.com/vijaykumarkk007/resploit/contributors) who participated in this project.
-
+  
 
 ## Acknowledgments
 - **PyQt5 Documentation** for guidance on building the GUI.
