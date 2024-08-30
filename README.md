@@ -110,7 +110,7 @@ To deploy this application:
 
 
 ## Authors
-- **Your Name** - *Initial work* - [vijaykumarkk007](https://github.com/vijaykumarkk007)
+- **Your Name** - *Initial work* - [https://github.com/vijaykumarkk007](https://github.com/vijaykumarkk007)
 
 See also the list of [contributors](https://github.com/vijaykumarkk007/resploit/contributors) who participated in this project.
 
