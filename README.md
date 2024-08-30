@@ -1,7 +1,6 @@
-# Comprehensive-Pentesting-Application
+# Resploit - Network and Security Scanning Tool
  Resploit is a GUI-based network and security scanning tool built with Python and PyQt5. It supports popular tools like Nmap, Wireshark, and Metasploit, allowing users to easily select tools, choose predefined scan options, input custom arguments, and view command output—all within a user-friendly interface. Perfect for quick, efficient scans.
 
-# Resploit - Network and Security Scanning Tool
 
 ## Table of Contents
 - [Features](#features)
