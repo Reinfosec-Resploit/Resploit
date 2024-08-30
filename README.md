@@ -23,7 +23,8 @@
 - **Clear Output:** Clear previous results with a single click to prepare for a new scan.
 
 ## Demo
-[![Resploit Demo](https://drive.google.com/file/d/1rVJudfQOxnYOeOImMfbFX5LKdlTomh9B/view?usp=sharing)](https://drive.google.com/file/d/1pOwGlngHDP4ExZ2Uq9NIBeNU-M3mq9P8/view?usp=sharing)
+[[Resploit Demo]![thumbnail](https://github.com/user-attachments/assets/8a00fd00-3bda-4363-b906-82b80c7610ef)
+](https://drive.google.com/file/d/1pOwGlngHDP4ExZ2Uq9NIBeNU-M3mq9P8/view?usp=sharing)
 *Click the image above to watch a demo video of Resploit in action.*
 
 ## Installation
