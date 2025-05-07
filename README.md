@@ -56,6 +56,38 @@ Resploit/
 └── README.md
 ```
 
+## 📺 Demonstrations
+
+### 🛰️ Complete Project Overview
+
+A comprehensive overview of Resploit, its architecture, goals, and demo scenarios.
+
+[![Complete Project Overview](https://drive.google.com/uc?id=1w_AfcNxaqegxe5Je0Ktx6MG4Kvf10IJB)](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
+
+📹 [Watch on YouTube](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
+
+---
+
+
+### ⚙️ Installation and Running the 5G Core Network
+
+Step-by-step guide to installing Free5GC and verifying service readiness.
+
+[![free5gcthumbnail](https://github.com/user-attachments/assets/9fb040ff-28a8-4a80-a158-3831c93e8e96)](https://drive.google.com/file/d/1whnTeM1Q1LdyXlP0tJqO04Uu3G4mCaKF/view?usp=sharing)
+
+📹 [Watch the Video](https://drive.google.com/file/d/1whnTeM1Q1LdyXlP0tJqO04Uu3G4mCaKF/view?usp=sharing)
+
+
+### 🧪 Live Penetration Testing on Free5GC
+
+Demonstrates real-time Resploit modules attacking Free5GC in a testbed.
+
+[![Resploit Demo](https://github.com/user-attachments/assets/8a00fd00-3bda-4363-b906-82b80c7610ef)](https://drive.google.com/file/d/1pOwGlngHDP4ExZ2Uq9NIBeNU-M3mq9P8/view?usp=sharing)
+
+📹 [Watch the Demo](https://drive.google.com/file/d/1gBrkx13Oa4kM_37BFGHFZChVZCN2jcNL/view?usp=sharing)
+
+---
+
 ---
 
 ## 🚀 Getting Started
@@ -86,37 +118,6 @@ This launches the AMF, SMF, UPF, NRF, AUSF, and web UI at:
 cd recon
 python3 ngap_scan.py --target 192.168.1.35
 ```
-
----
-
-## 📺 Demonstrations
-
-### 🛰️ Complete Project Overview
-
-A comprehensive overview of Resploit, its architecture, goals, and demo scenarios.
-
-[![Complete Project Overview](https://drive.google.com/uc?id=1w_AfcNxaqegxe5Je0Ktx6MG4Kvf10IJB)](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
-
-📹 [Watch on YouTube](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
-
----
-
-### ⚙️ Installation and Running the 5G Core Network
-
-Step-by-step guide to installing Free5GC and verifying service readiness.
-
-[![free5gcthumbnail](https://github.com/user-attachments/assets/9fb040ff-28a8-4a80-a158-3831c93e8e96)](https://drive.google.com/file/d/1whnTeM1Q1LdyXlP0tJqO04Uu3G4mCaKF/view?usp=sharing)
-
-📹 [Watch the Video](https://drive.google.com/file/d/1whnTeM1Q1LdyXlP0tJqO04Uu3G4mCaKF/view?usp=sharing)
-
-
-### 🧪 Live Penetration Testing on Free5GC
-
-Demonstrates real-time Resploit modules attacking Free5GC in a testbed.
-
-[![Resploit Demo](https://github.com/user-attachments/assets/8a00fd00-3bda-4363-b906-82b80c7610ef)](https://drive.google.com/file/d/1pOwGlngHDP4ExZ2Uq9NIBeNU-M3mq9P8/view?usp=sharing)
-
-📹 [Watch the Demo](https://drive.google.com/file/d/1gBrkx13Oa4kM_37BFGHFZChVZCN2jcNL/view?usp=sharing)
 
 ---
 
