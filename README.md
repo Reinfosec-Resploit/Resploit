@@ -12,11 +12,11 @@
 
 A comprehensive overview of Resploit, its architecture, goals, and demo scenarios.
 
+# 📹 [Watch on YouTube](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
+
 [![Complete Project Overview](https://drive.google.com/uc?id=1w_AfcNxaqegxe5Je0Ktx6MG4Kvf10IJB)](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
 
-📹 [Watch on YouTube](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
 
----
 
 ---
 
