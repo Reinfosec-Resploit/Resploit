@@ -5,7 +5,7 @@ Rather than serving as a generic network scanner, Resploit is crafted to assist 
 
 ## Table of Contents
 - [Features](#features)
-- [Demo](#demo)
+- [Demo](#Demonstrations)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
@@ -15,17 +15,141 @@ Rather than serving as a generic network scanner, Resploit is crafted to assist 
 - [Built With](#built-with)
 - [Acknowledgments](#acknowledgments)
 
+# 🛰️ Resploit - Telecom Network Pentesting Toolkit
+
+**Resploit** is a telecom network penetration testing toolkit designed for evaluating the security posture of modern 5G core networks. Built using real-world telecom stacks like [Free5GC](https://www.free5gc.org/), this project simulates and tests vulnerabilities in the Next Generation Core (NGC) through crafted attack modules, custom analysis tools, and live demos. It aims to empower researchers, telecom engineers, and security enthusiasts with better understanding and control over 5G deployments.
+
+---
+
+## 🔍 Key Features
+
+- 🧵 **Modular design** with plug-and-play testing scripts
+- 🧠 **Protocol-aware fuzzing** for 5G core interfaces (NGAP, NAS, etc.)
+- 🛰️ **Simulated AMF/SMF/UPF/N3IWF components** using Free5GC
+- 🔐 **Security evaluation** through real-time test cases and exploits
+- 📊 **Data analysis & packet capture** integrated with Wireshark and tcpdump
+- 🐚 CLI-based automation and monitoring interface
+- 
+
+---
+
+## 📦 Project Structure
+
+```bash
+Resploit/
+├── core/                # Free5GC deployment files and configs
+├── exploits/            # Exploitation scripts targeting specific 5G components
+├── recon/               # Network scanners and information gathering tools
+├── analysis/            # PCAP analyzers, logging utilities, protocol decoders
+├── configs/             # YAML/JSON files for test cases and modules
+├── scripts/             # Automation scripts and setup files
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Reinfosec-Resploit/Resploit.git
+cd Resploit
+```
+
+### 2. Setup Free5GC Core
+
+Ensure Docker and Golang are installed. Then follow the setup script:
+
+```bash
+cd core
+./run.sh
+```
+
+This launches the AMF, SMF, UPF, NRF, AUSF, and web UI at:
+
+- Web Console: http://127.0.0.1:5000 or http://<your_ip>:5000
+
+### 3. Run Recon/Pentest Modules
+
+```bash
+cd recon
+python3 ngap_scan.py --target 192.168.1.35
+```
+
+---
+#Demonstrations
+## 📺 Demonstrations
+
+Hands-on video demos of the full project in action — including setup, core network emulation, and offensive testing.
+
+---
+
+### 🛰️ Complete Project Overview
+
+A comprehensive overview of Resploit, its architecture, goals, and demo scenarios.
+
+[![Complete Project Overview](https://drive.google.com/uc?id=1w_AfcNxaqegxe5Je0Ktx6MG4Kvf10IJB)](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
+
+📹 [Watch on YouTube](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
+
+---
+
+### ⚙️ Installation and Running the 5G Core Network
+
+Step-by-step guide to installing Free5GC and verifying service readiness.
+
+[![Installation and Running the 5G Core Network](https://drive.google.com/uc?id=1k2pcEMQdDJTXSheVcjacoT6k4eYFe0Yk)](https://drive.google.com/file/d/1k2pcEMQdDJTXSheVcjacoT6k4eYFe0Yk/view)
+
+📹 [Watch the Video](https://drive.google.com/file/d/1k2pcEMQdDJTXSheVcjacoT6k4eYFe0Yk/view?usp=drive_link)
+
+---
+
+### 🧪 Live Penetration Testing on Free5GC
+
+Demonstrates real-time Resploit modules attacking Free5GC in a testbed.
+
+[[Resploit Demo]![thumbnail](https://github.com/user-attachments/assets/8a00fd00-3bda-4363-b906-82b80c7610ef)
+](https://drive.google.com/file/d/1pOwGlngHDP4ExZ2Uq9NIBeNU-M3mq9P8/view?usp=sharing)
+*Click the image above to watch a demo video of Resploit in action.*
+
+📹 [Watch the Demo](https://drive.google.com/file/d/1gBrkx13Oa4kM_37BFGHFZChVZCN2jcNL/view?usp=sharing)
+
+---
+
+## 🛠️ Technologies Used
+
+- [Free5GC](https://www.free5gc.org/)
+- Wireshark / tcpdump
+- Python 3.x
+- GTP, NAS, NGAP protocols
+- Bash scripting
+
+---
+
+## 🧠 Inspiration
+
+This project was built out of curiosity to deeply understand the 5G NGC (Next Generation Core) and highlight areas where traditional network testing doesn’t suffice in telecom environments.
+
+---
+
+## 📬 Contact
+
+Have questions or feedback? Feel free to open issues or reach out via [GitHub Discussions](https://github.com/Reinfosec-Resploit/Resploit/discussions).
+
+---
+
+## ⚠️ Disclaimer
+
+This toolkit is intended **only for educational and lawful research purposes**. Do **not** deploy it on production telecom networks or without proper authorization.
+
+
 ## Features
 - **Tool Selection:** Choose from a wide range of network and security tools including Nmap, Wireshark, Metasploit, Nessus, Aircrack-ng, Burp Suite, Nikto, Hydra, John the Ripper, OpenVAS, SQLmap, Snort, and DirBuster.
 - **Predefined Scan Options:** Select from various predefined scan types tailored for each tool.
 - **Custom Command Arguments:** Add custom command-line arguments to suit your specific needs.
 - **Output Display:** View command execution results directly within the GUI.
 - **Clear Output:** Clear previous results with a single click to prepare for a new scan.
-
-## Demo
-[[Resploit Demo]![thumbnail](https://github.com/user-attachments/assets/8a00fd00-3bda-4363-b906-82b80c7610ef)
-](https://drive.google.com/file/d/1pOwGlngHDP4ExZ2Uq9NIBeNU-M3mq9P8/view?usp=sharing)
-*Click the image above to watch a demo video of Resploit in action.*
 
 ## Installation
 
