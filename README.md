@@ -6,6 +6,19 @@
 **Resploit** is a telecom network penetration testing toolkit designed for evaluating the security posture of modern 5G core networks. Built using real-world telecom stacks like Free5GC, this project simulates and tests vulnerabilities in the Next Generation Core (NGC) through crafted attack modules, custom analysis tools, and live demos. It aims to empower researchers, telecom engineers, and security enthusiasts with better understanding and control over 5G deployments.
 
 ---
+## 📺 Demonstrations
+
+### 🛰️ Complete Project Overview
+
+A comprehensive overview of Resploit, its architecture, goals, and demo scenarios.
+
+[![Complete Project Overview](https://drive.google.com/uc?id=1w_AfcNxaqegxe5Je0Ktx6MG4Kvf10IJB)](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
+
+📹 [Watch on YouTube](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
+
+---
+
+---
 
 ## 📑 Table of Contents
 
@@ -55,19 +68,6 @@ Resploit/
 ├── scripts/             # Automation scripts and setup files
 └── README.md
 ```
-
-## 📺 Demonstrations
-
-### 🛰️ Complete Project Overview
-
-A comprehensive overview of Resploit, its architecture, goals, and demo scenarios.
-
-[![Complete Project Overview](https://drive.google.com/uc?id=1w_AfcNxaqegxe5Je0Ktx6MG4Kvf10IJB)](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
-
-📹 [Watch on YouTube](https://youtu.be/7aQYirUlw_c?si=-3Y0Z49CN0k6yCdb)
-
----
-
 
 ### ⚙️ Installation and Running the 5G Core Network
 
